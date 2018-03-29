@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "TwitterAddon",
+  "mainClass": "de.stuckdexter.twitteraddon.TwitterAddon",
+  "description": "A TwitterAddon for showing Infos like Timeline and Followers",
+  "author": "StuckDexter",
+  "version": 1,
+  "category": 1,
+  "icon": "https://pbs.twimg.com/profile_images/875087697177567232/Qfy0kRIP_400x400.jpg"
+}
