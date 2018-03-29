@@ -48,7 +48,6 @@ public class TwitterInfos {
             StringBuilder stringBuilder = new StringBuilder();
             while ((inputLine = bufferedReader.readLine()) != null)
             {
-                System.out.println(inputLine);
                 if(inputLine.contains("<span class=\"ProfileNav-value\"")){
                     if(tweets == null){
                         tweets = inputLine.replace("            <span class=\"ProfileNav-value\"  data-count=", "").replace(" data-is-compact=\"false\">", "").replace("</span>", "").replace(".", "").replace("data-is-compact=\"true\">", "");
